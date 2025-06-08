@@ -1,0 +1,131 @@
+# 🚨 GraphGuard – AI-Powered Fraud Detection via Graph Neural Networks  
+*Smart, Scalable, and Secure Fraud Detection for the Financial Age*
+
+> 📌 Submission for **Cyfuture AI Hackathon 1.0**  
+> Track: **Finance – Fraud Detection** | Status: *Pitch Stage (Prototype coming post Round 1)*
+
+---
+
+## 📖 Overview
+
+**GraphGuard** is a next-generation fraud detection platform that leverages **Graph Neural Networks (GNNs)** to model and detect sophisticated fraudulent behaviors in financial systems. Unlike traditional systems that treat each transaction in isolation, GraphGuard constructs a **relational graph** connecting accounts, devices, locations, and transactions – allowing it to catch hidden patterns, organized fraud rings, and collusion strategies.
+
+> 🚀 Our vision is to create a modular, GPU-accelerated fraud detection system that’s explainable, real-time, and adaptable across financial platforms.
+
+---
+
+## 🎯 Problem Statement
+
+Fraudsters today use complex, multi-hop strategies to bypass traditional detection systems. Conventional machine learning models often:
+- Operate on flat tabular data.
+- Miss relational and structural patterns.
+- Generate high false positives.
+
+### GraphGuard solves this by:
+- Treating fraud as a **network problem**.
+- Using **GNNs** to learn deep patterns of interaction.
+- Scoring each transaction based on its **structural and behavioral context**.
+
+---
+
+## 💡 Key Features (Proposed)
+
+✅ **Graph Neural Networks** for fraud detection  
+✅ **Hybrid Learning**: Combine GNN embeddings with tabular ML (e.g. XGBoost)  
+✅ **Real-Time Scoring** for incoming transactions  
+✅ **Interactive Dashboard** to visualize fraud clusters  
+✅ **GPU-accelerated training and inference** on AWS SageMaker (via Cyfuture)
+
+---
+
+## 🔧 Tech Stack (Planned)
+
+| Layer         | Tools                                             |
+|---------------|--------------------------------------------------|
+| ML Framework  | PyTorch, PyTorch Geometric, XGBoost              |
+| Graph Tools   | NetworkX, DGL                                    |
+| Cloud         | AWS SageMaker + Cyfuture GPU Infra               |
+| Dashboard     | Streamlit / Flask (for visual risk monitoring)   |
+| Data Pipeline | Pandas, NumPy, Apache Spark (ETL preprocessing)  |
+| MLOps         | MLflow, Docker (for modular deployment)          |
+
+---
+
+## 🧠 Architecture (Planned)
+
+1. **Transaction Graph Construction**  
+   Accounts, devices, and IPs are nodes. Transactions are edges.  
+2. **Graph Embedding via GNNs**  
+   Learn fraud patterns over the network using GraphSAGE or GAT.  
+3. **Classifier Integration**  
+   Feed graph embeddings + transaction features into XGBoost.  
+4. **Fraud Scoring + Visualization**  
+   Streamlit dashboard to show transaction risk + graph view.
+
+---
+
+## 📊 Dataset
+
+We’ll be using the public [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) from Kaggle for initial prototyping, with future plans to adapt to multi-party data or synthetic streaming sources.
+
+---
+
+## 🛠️ Project Status
+
+| Phase                    | Status         |
+|--------------------------|----------------|
+| Ideation & Research      | ✅ Completed   |
+| Tech Stack Finalization  | ✅ Completed   |
+| Dataset & Preprocessing  | ⏳ Post Round 1 |
+| Model Development        | ⏳ Post Round 1 |
+| Dashboard + Demo         | ⏳ Post Round 1 |
+
+> ⚠️ Current focus: Delivering a compelling pitch for Round 1 showcasing the **problem, opportunity, and proposed AI solution**.
+
+---
+
+## 🌍 Potential Impact
+
+> 🎯 The global AI fraud detection market is projected to grow to **$65B+ by 2034**.  
+GraphGuard has the potential to become a **commercial SaaS** platform for:
+- Banks & digital wallets
+- E-commerce marketplaces
+- Crypto exchanges
+- Insurance and loan platforms
+
+Post-hackathon, GraphGuard can evolve into a **real-time fraud analytics engine** with explainable AI and federated learning across institutions.
+
+---
+
+## 🔮 Future Scope
+
+- 🔁 **Kafka Stream Integration** for live transaction monitoring  
+- 🧠 **Explainability Layer** using LLMs (e.g. "Why was this flagged?")  
+- 🤝 **Federated Training** across multiple financial institutions  
+- 🔐 **Scalable SaaS APIs** with modular deployment  
+
+---
+
+## 👩‍💻 Team
+
+| Name                 | Role                          |
+|----------------------|-------------------------------|
+| **Nyx (Payal Choudhary)** | Lead AI & Architecture     |
+| [Teammate 1]         | Backend/ML Pipeline           |
+| [Teammate 2]         | Dashboard/UI                  |
+| [Teammate 3]         | Data + MLOps                  |
+
+---
+
+## 📬 Contact
+
+- GitHub: [@nyhereo-benzai1](https://github.com/nyhereo-benzai1)
+- LinkedIn: [Payal Choudhary](https://www.linkedin.com/in/payal-choudhary-nyx)
+- Email: nyxai@proton.me
+
+---
+
+> 🧠 *"Fraud doesn’t live in rows – it hides in networks. GraphGuard shines a light on them."*
+
+---
+
